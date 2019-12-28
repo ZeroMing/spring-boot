@@ -26,6 +26,7 @@
 			<properties>
 				<spring-javaformat.version>0.0.11</spring-javaformat.version>
 				<nohttp-checkstyle.version>0.0.1.RELEASE</nohttp-checkstyle.version>
+				<disable.checks>true</disable.checks>
 			</properties>
 			<build>
 				<plugins>
@@ -109,6 +110,7 @@
 				<!-- Samples are built via the invoker plugin -->
 				<module>spring-boot-samples-invoker</module>
 				<module>spring-boot-tests</module>
+				<module>spring-boot-samples</module>
 			</modules>
 		</profile>
 		<!-- M2E profile to allow easy import into Eclipse -->
